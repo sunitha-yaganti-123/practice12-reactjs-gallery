@@ -1,0 +1,36 @@
+/* Write your code here. */
+.heading {
+  font-family: 'Bree Serif';
+  font-weight: 300;
+  color: grey;
+  font-size: 23px;
+  margin-top: 24px;
+}
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: yellowgreen;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  max-width: 1140px;
+}
+
+.nature-image {
+  border-radius: 18px;
+}
+.thumbnails-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+}
